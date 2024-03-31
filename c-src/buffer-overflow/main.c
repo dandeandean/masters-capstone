@@ -1,13 +1,13 @@
-// #include <CoreGraphics/CoreGraphics.h>
 #include <stdio.h>
-#include <stdlib.h>
+// #include <stdlib.h>
+#include <string.h>
 
 #define MAX_BUF 5
 
 int main(int argc, char **argv) {
-  int buf[MAX_BUF];
-  for (int i = 1; i < argc; i++) {
-    buf[i - 1] = atoi(argv[i]);
+  char buf[MAX_BUF];
+  if (argc > 1) {
+    strcpy(buf, argv[1]);
   }
   printf("\n");
 }
