@@ -1,2 +1,2 @@
 all:
-	gcc main.c -o run
+	clang main.c -o run
