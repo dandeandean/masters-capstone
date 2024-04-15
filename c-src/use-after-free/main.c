@@ -6,7 +6,10 @@ struct String {
   char *s;
   int len;
 };
-
+void consume(struct String * s){
+  printf("string struct: {'%s', len=%d}\n",s->s,s->len);
+  free(s);
+}
 int main(int argc, char **argv) {
   struct String *s = malloc(sizeof(struct String));
   if (argc < 2) {
@@ -15,26 +18,7 @@ int main(int argc, char **argv) {
   }
   s->s = argv[1];
   s->len = strlen(s->s);
-  printf("String(%s,%d)\n", s->s,s->len);
-  char option;    
-  while (option != 'q') {
-    printf("What to do next?\n");
-    printf("(f)ree\n(p)rint\n(q)uit\n>");
-    scanf("%c",&option);
-    switch (option)
-    {
-    case 'f':
-      system("clear");
-      printf("\nFreeing...\n");
-      free(s);
-      break;
-    case 'p':
-      system("clear");
-      printf("\nString(%s,%d)\n\n", s->s,s->len);
-      break;
-    default:
-      break;
-    }
-  }
+  consume(s);
+  consume(s);
   return 0;
 }
