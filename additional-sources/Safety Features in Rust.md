@@ -1,0 +1,1 @@
+Memory Safety. This is ensured by the [[Borrow Checker]]. This is not trivial at all. Anyone who has coded in [[C and C++]] has run into a Segmentation Fault, so it is amazing that Rust can operate at such a low level and be safe in this dimension. 
