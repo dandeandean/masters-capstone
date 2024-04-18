@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7dfa21832a03fa87",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -87,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conclusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conclusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Conclusion.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,8 +153,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ca09f6399ceccc4",
+  "active": "7dfa21832a03fa87",
   "lastOpenFiles": [
+    "Drafts/Draft3.pdf",
+    "Drafts/Draft2.pdf",
+    "SynthesisPaper_DEAN.pdf",
+    "Draft3.pdf",
+    "Draft2.pdf",
     "Conclusion.md",
     "sources/code-pointer-tegridy.pdf",
     "Literature Review.md",
@@ -158,10 +168,6 @@
     "sources/formal-compile-unsafe.pdf",
     "sources/runtime-rust-broked.pdf",
     "sources/runtime-rust.pdf",
-    "sources/runtime-rust(.pdf",
-    "Drafts/DRAFT.pdf",
-    "Drafts",
-    "untitled folder/DRAFT.pdf",
     "Introduction.md",
     "Abstract.md",
     "Unsafe Rust.md",
